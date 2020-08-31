@@ -1,3 +1,4 @@
+import tensorflow as tf
 def sobel_edge_3d(inputTensor):
     # This function computes Sobel edge maps on 3D images
     # inputTensor: input 3D images, with size of [batchsize,W,H,D,1]
