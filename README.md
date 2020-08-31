@@ -1,5 +1,5 @@
 # tf_Sobel_edge_3D
-It compute Sobel edge maps on 3D images
+It computes 3D Sobel edge maps for 3D images
 
 3D Sobel edge loss is used for 3D image super-resolution in
 Zhao, Can, et al. "ISMORE: An iterative self super-resolution algorithm." International Workshop on Simulation and Synthesis in Medical Imaging. Springer, Cham, 2019.
