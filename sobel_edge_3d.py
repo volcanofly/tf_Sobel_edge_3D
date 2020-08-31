@@ -2,7 +2,7 @@ import tensorflow as tf
 def sobel_edge_3d(inputTensor):
     # This function computes Sobel edge maps on 3D images
     # inputTensor: input 3D images, with size of [batchsize,W,H,D,1]
-    # output: output 3D edge maps, with size of [batchsize,W-2,H-2,D-2,3]
+    # output: output 3D edge maps, with size of [batchsize,W-2,H-2,D-2,3], each channel represents edge map in one dimension
     sobel1 = tf.constant([1,0,-1],tf.float32) # 1D edge filter
     sobel2 = tf.constant([1,2,1],tf.float32) # 1D blur weight
     
